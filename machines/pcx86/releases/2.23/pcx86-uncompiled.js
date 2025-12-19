@@ -58,8 +58,7 @@ const LICENSE = "License: MIT <https://www.pcjs.org/LICENSE.txt>";
  * MAXDEBUG can be set to true to enable MAXDEBUG-only code (ie, hyper-aggressive DEBUG checks that should only be
  * enabled in special cases); it always overridden with false in the Closure Compiler release.
  *
- * @define {boolean}
- */
+ * @define {boolean} */
 const MAXDEBUG = false;
 
 /**
@@ -6058,7 +6057,8 @@ const X86 = {
     MODEL_80186:    80186,
     MODEL_80188:    80188,
     MODEL_80286:    80286,
-    MODEL_80386:    80386,
+    MODEL_80386:    80486,
+    MODEL_80486:    80486,
 
     /**
      * 80386 CPU stepping identifiers (supported)
